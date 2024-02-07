@@ -4,7 +4,12 @@ Feature: Verify Rahul Shetty application
 Background:
 Given User should be at Home Page
 When User clicks on Practice button
-And User clicks on Automation-Practice button
+And User enters username as "Himanshu"
+And User enters email as "himanshu2264dalal@gmail.com"
+And User clicks on submit button
+And User should be able to click on practice2 button
+Then User should see practice page
+
 
 Scenario: Verify Radio button is clickable or not
 When User clicks on options in Radio button

@@ -4,7 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class PractipageSteps 
+public class StepDifinition 
 {
 	@Given("User should be at Home Page")
 	public void user_should_be_at_home_page() {
@@ -18,8 +18,32 @@ public class PractipageSteps
 	    throw new io.cucumber.java.PendingException();
 	}
 
-	@When("User clicks on Automation-Practice button")
-	public void user_clicks_on_automation_practice_button() {
+	@When("User enters username as {string}")
+	public void user_enters_username_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("User enters email as {string}")
+	public void user_enters_email_as(String string) {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("User clicks on submit button")
+	public void user_clicks_on_submit_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("User should be able to click on practice2 button")
+	public void user_should_be_able_to_click_on_practice2_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("User should see practice page")
+	public void user_should_see_practice_page() {
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
@@ -77,8 +101,6 @@ public class PractipageSteps
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new io.cucumber.java.PendingException();
 	}
-
-	
 
 
 }
